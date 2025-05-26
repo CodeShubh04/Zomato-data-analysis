@@ -1,70 +1,81 @@
-🍽️ Zomato Data Analysis Project
+# 🍽️ Zomato Data Analysis Project
+
 This project provides insights into Zomato's restaurant data through comprehensive data preprocessing, cleaning, exploration, and visualization techniques. It aims to extract meaningful patterns and trends that can help in decision-making and customer relationship strategies.
 
-📂 Files Included
-Zomato-Analysis.ipynb – Jupyter Notebook containing the entire analysis pipeline from data loading to visualization.
+## 📂 Files Included
 
-zomato.csv – The main dataset containing restaurant-level information.
+* **`Zomato-Analysis.ipynb`** – Jupyter Notebook containing the entire analysis pipeline from data loading to visualization.
+* **`zomato.csv`** – The main dataset containing restaurant-level information.
+* **`Country-Code.xlsx`** – Excel file mapping country codes to their names, used to enrich the Zomato dataset.
 
-Country-Code.xlsx – Excel file mapping country codes to their names, used to enrich the Zomato dataset.
+---
 
-📊 Project Overview
-🔍 Objectives
-Clean and preprocess the raw Zomato data
+## 📊 Project Overview
 
-Merge country information for geographical insights
+### 🔍 Objectives
 
-Explore and visualize patterns across countries, cuisines, ratings, and pricing
+* Clean and preprocess the raw Zomato data
+* Merge country information for geographical insights
+* Explore and visualize patterns across countries, cuisines, ratings, and pricing
+* Identify business insights for strategy and customer engagement
 
-Identify business insights for strategy and customer engagement
+### ✅ Key Steps
 
-✅ Key Steps
-Data Cleaning (null handling, duplicate removal, standardizing formats)
+* Data Cleaning (null handling, duplicate removal, standardizing formats)
+* Merging datasets (`zomato.csv` with `Country-Code.xlsx`)
+* Exploratory Data Analysis (EDA)
+* Visualizations (bar plots, pie charts, heatmaps, etc.)
+* Insights extraction (most popular cuisines, average ratings per country, etc.)
 
-Merging datasets (zomato.csv with Country-Code.xlsx)
+---
 
-Exploratory Data Analysis (EDA)
+## 🧰 Technologies Used
 
-Visualizations (bar plots, pie charts, heatmaps, etc.)
+* **Python**
+* **Pandas, NumPy** – Data manipulation
+* **Matplotlib, Seaborn** – Data visualization
+* **Jupyter Notebook** – Interactive development
 
-Insights extraction (most popular cuisines, average ratings per country, etc.)
+---
 
-🧰 Technologies Used
-Python
+## 🔍 Insights Gained
 
-Pandas, NumPy – Data manipulation
+* Top countries using Zomato
+* Cities with the highest number of restaurants
+* Most popular cuisines worldwide
+* Restaurant ratings and cost trends by country
+* Online delivery trends
 
-Matplotlib, Seaborn – Data visualization
+---
 
-Jupyter Notebook – Interactive development
+## 🚀 Getting Started
 
-🔍 Insights Gained
-Top countries using Zomato
+### Prerequisites
 
-Cities with the highest number of restaurants
-
-Most popular cuisines worldwide
-
-Restaurant ratings and cost trends by country
-
-Online delivery trends
-
-🚀 Getting Started
-Prerequisites
 Make sure you have the following installed:
 
+```bash
 pip install pandas numpy matplotlib seaborn openpyxl
+```
 
+### Run the Notebook
+
+```bash
 jupyter notebook Zomato-Analysis.ipynb
+```
 
-📌 Usage
+---
+
+## 📌 Usage
+
 This project is ideal for:
 
-Aspiring data analysts learning EDA
+* Aspiring data analysts learning EDA
+* Businesses interested in customer trends and global food delivery patterns
+* Students working on data science portfolio projects
 
-Businesses interested in customer trends and global food delivery patterns
+---
 
-Students working on data science portfolio projects
+## 👩‍💻 Author
 
-👩‍💻 Author
-Shubhanshi Verma
+**Shubhanshi Verma**
