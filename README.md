@@ -1,81 +1,65 @@
-# 🍽️ Zomato Data Analysis Project
+# Zomato Data Analysis
 
-This project provides insights into Zomato's restaurant data through comprehensive data preprocessing, cleaning, exploration, and visualization techniques. It aims to extract meaningful patterns and trends that can help in decision-making and customer relationship strategies.
+## Project Objective
 
-## 📂 Files Included
+This project tackles a business-critical question:
 
-* **`Zomato-Analysis.ipynb`** – Jupyter Notebook containing the entire analysis pipeline from data loading to visualization.
-* **`zomato.csv`** – The main dataset containing restaurant-level information.
-* **`Country-Code.xlsx`** – Excel file mapping country codes to their names, used to enrich the Zomato dataset.
+“How can restaurants and food delivery platforms identify factors affecting customer behavior and optimize operations to increase retention and revenue?”
 
----
+By analyzing Zomato’s dataset, the project provides actionable insights on customer preferences, restaurant performance, and market trends, applying a widely relevant customer analytics and churn prevention model for the food & hospitality industry.
 
-## 📊 Project Overview
+## Key Business Metrics
 
-### 🔍 Objectives
+-> Customer Reviews & Ratings – Track satisfaction levels and service quality.
 
-* Clean and preprocess the raw Zomato data
-* Merge country information for geographical insights
-* Explore and visualize patterns across countries, cuisines, ratings, and pricing
-* Identify business insights for strategy and customer engagement
+-> Average Cost for Two – Examine pricing impact on customer engagement.
 
-### ✅ Key Steps
+-> Cuisine Popularity – Identify trending cuisines to inform menu strategy.
 
-* Data Cleaning (null handling, duplicate removal, standardizing formats)
-* Merging datasets (`zomato.csv` with `Country-Code.xlsx`)
-* Exploratory Data Analysis (EDA)
-* Visualizations (bar plots, pie charts, heatmaps, etc.)
-* Insights extraction (most popular cuisines, average ratings per country, etc.)
+-> Regional Performance – Analyze customer density and preferences by location.
 
----
+-> Churn Indicators – Detect patterns in customer retention and disengagement.
 
-## 🧰 Technologies Used
+## Insights Across Segments
 
-* **Python**
-* **Pandas, NumPy** – Data manipulation
-* **Matplotlib, Seaborn** – Data visualization
-* **Jupyter Notebook** – Interactive development
+-> Cuisine-wise Performance – Certain cuisines show consistently higher ratings and engagement.
 
----
+-> Price Sensitivity – High costs correlate with lower retention in some customer segments.
 
-## 🔍 Insights Gained
+-> Geographic Preferences – Regional trends influence cuisine popularity and restaurant performance.
 
-* Top countries using Zomato
-* Cities with the highest number of restaurants
-* Most popular cuisines worldwide
-* Restaurant ratings and cost trends by country
-* Online delivery trends
+-> Review & Rating Patterns – Low ratings or slow service often predict higher churn.
 
----
+-> Restaurant Type Impact – Casual dining vs. fast food impacts engagement differently.
 
-## 🚀 Getting Started
+## Analytical Approach
 
-### Prerequisites
+-> Data Cleaning & Preprocessing – Ensures accuracy and consistency of restaurant and customer data.
 
-Make sure you have the following installed:
+-> Exploratory Data Analysis (EDA) – Reveals trends, patterns, and outliers in business metrics.
 
-```bash
-pip install pandas numpy matplotlib seaborn openpyxl
-```
+-> Segmentation Analysis – Breaks down insights by region, cuisine, and ratings.
 
-### Run the Notebook
+-> Visualization & Dashboarding – Interactive dashboards summarize trends for strategic decision-making.
 
-```bash
-jupyter notebook Zomato-Analysis.ipynb
-```
+## Recommendations
 
----
+-> Optimize Menu & Pricing – Focus on popular cuisines and adjust pricing to increase retention.
 
-## 📌 Usage
+-> Regional Marketing Strategies – Design campaigns based on local preferences.
 
-This project is ideal for:
+-> Monitor Customer Feedback – Use ratings and reviews to improve service quality.
 
-* Aspiring data analysts learning EDA
-* Businesses interested in customer trends and global food delivery patterns
-* Students working on data science portfolio projects
+-> Identify At-risk Restaurants – Provide support to underperforming locations.
 
----
+-> Predict & Reduce Churn – Implement loyalty programs and personalized promotions.
 
-## 👩‍💻 Author
+## Tech Stack
 
-**Shubhanshi Verma**
+-> Languages: Python
+
+-> Libraries: Pandas, NumPy, Matplotlib, Seaborn
+
+-> Tools: Jupyter Notebook, GitHub
+
+-> Visualization: Interactive dashboards (Matplotlib/Seaborn or Power BI/Plotly optional)
